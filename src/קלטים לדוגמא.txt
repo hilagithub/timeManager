@@ -1,0 +1,30 @@
+        ---EMPLOYEE--INPUT--
+		
+		ADD 1 E1 11111
+       
+        ADD 1 E2 22222
+		
+		ADD 0 E3 44444
+		
+		
+		---TASK--INPUT----
+		
+		ADD 0 t5 MID 20000
+		
+		REMOVE 0 t5 MID 20000
+		
+		ADD 0 t6 MID 20000
+		
+		REMOVE 0 t6 MID 20000
+      
+        ADD 1 t1 MID 20000
+       
+        ADD 1 t2 MAX 20200
+        
+        ADD 1 t3 MAX 30000
+		
+		REMOVE 1 t3 MAX 30000
+       
+        ADD 1 t4 MID 40000
+
+       REMOVE 1 t1 MID 2000        
