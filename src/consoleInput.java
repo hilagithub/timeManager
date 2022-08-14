@@ -295,6 +295,8 @@ public class consoleInput {
             scan_input_threads.get(i).start();
         }
 
+        System.out.println("please enter employee/task input or the word --print-- to see the working tasks");
+
 
 
 
