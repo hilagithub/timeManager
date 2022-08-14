@@ -68,7 +68,6 @@ public class queueByTypes {
                      synchronized (consoleInput.lock_print) {
                             //System.out.println(_working_tasks.size());
                             for (task t : _working_tasks) {
-                                   System.out.println("11\n");
                                    System.out.print(t.get_name());
                                    System.out.print("       |");
                                    //System.out.print(_availabe_employee.size());

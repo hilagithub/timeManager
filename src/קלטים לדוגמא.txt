@@ -27,4 +27,8 @@
        
         ADD 1 t4 MID 40000
 
-       REMOVE 1 t1 MID 2000        
+       REMOVE 1 t1 MID 2000
+
+       ---command print----
+
+       print
