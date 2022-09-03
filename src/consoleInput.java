@@ -109,35 +109,6 @@ public class consoleInput {
         }
     }
 
-//
-//
-//    synchronized void preempt_and_switch(Scanner scannIn) throws InterruptedException {
-//        while(true) {
-//            while (available_for_scan) {
-//                wait();
-//
-//            }
-//
-//            //switch after mult*time of estimated task
-//            for (int i = 0; i < queues.size(); i++) {
-//                queues.get(i).switch_after_rationed_time();
-//            }
-//
-//
-//            //preempt every mult*average time for task
-//            for (int i = 0; i < queues.size(); i++) {
-//                queues.get(i).preemt();
-//            }
-//            if (new_input1.size() != 0) {
-//                available_for_scan = true;
-//                notifyAll();
-//
-//            }
-//            Thread.sleep(1000);
-//        }
-//
-//
-//    }
 
 
     static Priority str_to_priority(String str_pr) {
@@ -198,10 +169,7 @@ public class consoleInput {
             Priority priority = str_to_priority(strRegex.split(" ")[3]);
             long estimated_time = Long.parseLong(strRegex.split(" ")[4]);
             queues.get(type).add_remove_task(action.ADD, new task(type, name, priority, estimated_time));
-            for (int i = 0; i < queues.size(); i++) {
-                queues.get(i).print_queue();
 
-            }
 
         }
         //remove task
